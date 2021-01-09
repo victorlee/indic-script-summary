@@ -1,4 +1,6 @@
 function siddham() {
+document.getElementById('scriptname').innerHTML = 'Siddham';
+
 document.getElementById('switch-ka').innerHTML = '𑖎';
 document.getElementById('switch-kha').innerHTML = '𑖏';
 document.getElementById('switch-ga').innerHTML = '𑖐';
