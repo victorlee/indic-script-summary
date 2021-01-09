@@ -1,6 +1,6 @@
 function devanagari() {
 document.getElementById('scriptname').innerHTML = 'Devanagari';
-  
+//consonants
 document.getElementById('switch-ka').innerHTML = 'क';
 document.getElementById('switch-kha').innerHTML = 'ख';
 document.getElementById('switch-ga').innerHTML = 'ग';
@@ -34,7 +34,9 @@ document.getElementById('switch-ba').innerHTML = 'ब';
 document.getElementById('switch-bha').innerHTML = 'भ';
 document.getElementById('switch-ma').innerHTML = 'म';
 document.getElementById('switch-va').innerHTML = 'व';
-
+document.getElementById('ce').innerHTML = `
+`;
+//vowels
 document.getElementById('switch-Xa').innerHTML = 'अ';
 document.getElementById('switch-a').innerHTML = '';
 document.getElementById('switch-Xā').innerHTML = 'आ';
@@ -63,7 +65,52 @@ document.getElementById('switch-Xo').innerHTML = 'ओ';
 document.getElementById('switch-o').innerHTML = 'ो';
 document.getElementById('switch-Xau').innerHTML = 'औ';
 document.getElementById('switch-au').innerHTML = 'ौ';
-
+document.getElementById('ve').innerHTML = `
+`;
+//various signs
+document.getElementById('vs').innerHTML = `
+<h2>Various signs</h2>
+<table>
+<tbody>
+  <tr>
+    <td id="switch-vs01">ँ</td>
+    <td>candrabindu</td>
+    <td class="pron"></td>
+  </tr>
+  <tr>
+    <td id="switch-vs02">ं</td>
+    <td>anusvara<br>(bindu)</td>
+    <td class="pron">ṃ</td>
+  </tr>
+  <tr>
+    <td id="switch-vs03">ः</td>
+    <td>visarga</td>
+    <td class="pron">ḥ</td>
+  </tr>
+  <tr>
+    <td id="switch-vs04">्</td>
+    <td>virama</td>
+    <td class="pron"></td>
+  </tr>
+  <tr>
+    <td id="switch-vs05">ॐ</td>
+    <td>om</td>
+    <td class="pron"></td>
+  </tr>
+  <tr>
+    <td id="switch-vs06">।</td>
+    <td>danda</td>
+    <td class="pron"></td>
+  </tr>
+  <tr>
+    <td id="switch-vs07">॥</td>
+    <td>double danda</td>
+    <td class="pron"></td>
+  </tr>
+</tbody>
+</table>
+`;
+//numerals
 document.getElementById('switch-0').innerHTML = '०';
 document.getElementById('switch-1').innerHTML = '१';
 document.getElementById('switch-2').innerHTML = '२';
@@ -74,47 +121,4 @@ document.getElementById('switch-6').innerHTML = '६';
 document.getElementById('switch-7').innerHTML = '७';
 document.getElementById('switch-8').innerHTML = '८';
 document.getElementById('switch-9').innerHTML = '९';
-
-document.getElementById('vs').innerHTML = `
-<h2>Various signs</h2>
-<table>
-<tbody>
-  <tr>
-    <td id="switch">ँ</td>
-    <td>candrabindu</td>
-    <td class="pron"></td>
-  </tr>
-  <tr>
-    <td id="switch">ं</td>
-    <td>anusvara<br>(bindu)</td>
-    <td class="pron">ṃ</td>
-  </tr>
-  <tr>
-    <td id="switch">ः</td>
-    <td>visarga</td>
-    <td class="pron">ḥ</td>
-  </tr>
-  <tr>
-    <td id="switch">्</td>
-    <td>virama</td>
-    <td class="pron"></td>
-  </tr>
-  <tr>
-    <td id="switch">ॐ</td>
-    <td>om</td>
-    <td class="pron"></td>
-  </tr>
-  <tr>
-    <td id="switch">।</td>
-    <td>danda</td>
-    <td class="pron"></td>
-  </tr>
-  <tr>
-    <td id="switch">॥</td>
-    <td>double danda</td>
-    <td class="pron"></td>
-  </tr>
-</tbody>
-</table>
-`;
 }
