@@ -1,6 +1,6 @@
 function siddham() {
 document.getElementById('switch-ka').innerHTML = '𑖎';
-document.getElementById('switch-kha').innerHTML = '𑖟';
+document.getElementById('switch-kha').innerHTML = '𑖏';
 document.getElementById('switch-ga').innerHTML = '𑖐';
 document.getElementById('switch-gha').innerHTML = '𑖑';
 document.getElementById('switch-ṅa').innerHTML = '𑖒';
@@ -45,7 +45,7 @@ document.getElementById('switch-Xu').innerHTML = '𑖄';
 document.getElementById('switch-u').innerHTML = '𑖲';
 document.getElementById('switch-Xū').innerHTML = '𑖅';
 document.getElementById('switch-ū').innerHTML = '𑖳';
-document.getElementById('switch-Xṛ').innerHTML = '𑖇';
+document.getElementById('switch-Xṛ').innerHTML = '𑖆';
 document.getElementById('switch-ṛ').innerHTML = '𑖴';
 document.getElementById('switch-Xṝ').innerHTML = '𑖇';
 document.getElementById('switch-ṝ').innerHTML = '𑖵';
