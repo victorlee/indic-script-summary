@@ -36,4 +36,50 @@ document.getElementById('switch-ma').innerHTML = '𑖦';
 document.getElementById('switch-va').innerHTML = '𑖪';
 document.getElementById('ce').innerHTML = `
 `;
+//vowels
+document.getElementById('switch-Xa').innerHTML = '𑖀';
+document.getElementById('switch-a').innerHTML = '';
+document.getElementById('switch-a-trans').innerHTML = 'a';
+document.getElementById('switch-Xā').innerHTML = '𑖁';
+document.getElementById('switch-ā').innerHTML = '𑖯';
+document.getElementById('switch-ā-trans').innerHTML = 'ā';
+document.getElementById('switch-Xi').innerHTML = '𑖂';
+document.getElementById('switch-i').innerHTML = '𑖰';
+document.getElementById('switch-Xī').innerHTML = '𑖃';
+document.getElementById('switch-ī').innerHTML = '𑖱';
+document.getElementById('switch-Xu').innerHTML = '𑖄';
+document.getElementById('switch-u').innerHTML = '𑖲';
+document.getElementById('switch-Xū').innerHTML = '𑖅';
+document.getElementById('switch-ū').innerHTML = '𑖳';
+document.getElementById('switch-Xṛ').innerHTML = '𑖆';
+document.getElementById('switch-ṛ').innerHTML = '𑖴';
+document.getElementById('switch-Xṝ').innerHTML = '𑖇';
+document.getElementById('switch-ṝ').innerHTML = '𑖵';
+document.getElementById('switch-Xḷ').innerHTML = '𑖈';
+document.getElementById('switch-ḷ').innerHTML = '𑖶';
+document.getElementById('switch-Xḹ').innerHTML = '𑖉';
+document.getElementById('switch-ḹ').innerHTML = '𑖷';
+document.getElementById('switch-Xe').innerHTML = '𑖊';
+document.getElementById('switch-e').innerHTML = '𑖸';
+document.getElementById('switch-Xai').innerHTML = '𑖋';
+document.getElementById('switch-ai').innerHTML = '𑖹';
+document.getElementById('switch-Xo').innerHTML = '𑖌';
+document.getElementById('switch-o').innerHTML = '𑖺';
+document.getElementById('switch-Xau').innerHTML = '𑖍';
+document.getElementById('switch-au').innerHTML = '𑖻';
+document.getElementById('ve').innerHTML = `
+`;
+//various signs
+document.getElementById('switch-candrabindu').innerHTML = '𑖼';
+document.getElementById('switch-anusvara').innerHTML = '𑖽';
+document.getElementById('switch-visarga').innerHTML = '𑖾';
+document.getElementById('switch-virama').innerHTML = '𑖿';
+document.getElementById('switch-om').innerHTML = '';
+document.getElementById('switch-danda').innerHTML = '𑗂';
+document.getElementById('switch-doubledanda').innerHTML = '𑗃';
+document.getElementById('vse').innerHTML = `
+`;
+//numerals
+document.getElementById('n').innerHTML = `
+`;
 }
