@@ -119,5 +119,4 @@ document.getElementById('link').innerHTML = `
 full list: <a href="https://www.unicode.org/charts/PDF/U0900.pdf" target="_blank">https://www.unicode.org/charts/PDF/U0900.pdf</a>
 `;
 //others
-document.getElementById('output').value += '\r\n';
 }
