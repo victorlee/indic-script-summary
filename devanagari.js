@@ -70,57 +70,47 @@ document.getElementById('switch-au').innerHTML = 'ौ';
 document.getElementById('ve').innerHTML = `
 `;
 //various signs
-document.getElementById('vs').innerHTML = `
-<h2>Various signs</h2>
+document.getElementById('switch-candrabindu').innerHTML = 'ँ';
+document.getElementById('switch-anusvara').innerHTML = 'ं';
+document.getElementById('switch-visarga').innerHTML = 'ः';
+document.getElementById('switch-virama').innerHTML = '्';
+document.getElementById('switch-om').innerHTML = 'ॐ';
+document.getElementById('switch-danda').innerHTML = '।';
+document.getElementById('switch-doubledanda').innerHTML = '॥';
+document.getElementById('vse').innerHTML = `
+`;
+//numerals
+document.getElementById('n').innerHTML = `
+<h2>Numerals</h2>
 <table>
+<thead>
+<tr>
+    <th>0</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+    <th>7</th>
+    <th>8</th>
+    <th>9</th>
+  </tr>
+</thead>
 <tbody>
   <tr>
-    <td id="switch-vs01">ँ</td>
-    <td>candrabindu</td>
-    <td class="trans"></td>
-  </tr>
-  <tr>
-    <td id="switch-vs02">ं</td>
-    <td>anusvara<br>(bindu)</td>
-    <td class="trans">ṃ</td>
-  </tr>
-  <tr>
-    <td id="switch-vs03">ः</td>
-    <td>visarga</td>
-    <td class="trans">ḥ</td>
-  </tr>
-  <tr>
-    <td id="switch-vs04">्</td>
-    <td>virama</td>
-    <td class="trans"></td>
-  </tr>
-  <tr>
-    <td id="switch-vs05">ॐ</td>
-    <td>om</td>
-    <td class="trans"></td>
-  </tr>
-  <tr>
-    <td id="switch-vs06">।</td>
-    <td>danda</td>
-    <td class="trans"></td>
-  </tr>
-  <tr>
-    <td id="switch-vs07">॥</td>
-    <td>double danda</td>
-    <td class="trans"></td>
+    <td id="switch-0">०</td>
+    <td id="switch-1">१</td>
+    <td id="switch-2">२</td>
+    <td id="switch-3">३</td>
+    <td id="switch-4">४</td>
+    <td id="switch-5">५</td>
+    <td id="switch-6">६</td>
+    <td id="switch-7">७</td>
+    <td id="switch-8">८</td>
+    <td id="switch-9">९</td>
   </tr>
 </tbody>
 </table>
 `;
-//numerals
-document.getElementById('switch-0').innerHTML = '०';
-document.getElementById('switch-1').innerHTML = '१';
-document.getElementById('switch-2').innerHTML = '२';
-document.getElementById('switch-3').innerHTML = '३';
-document.getElementById('switch-4').innerHTML = '४';
-document.getElementById('switch-5').innerHTML = '५';
-document.getElementById('switch-6').innerHTML = '६';
-document.getElementById('switch-7').innerHTML = '७';
-document.getElementById('switch-8').innerHTML = '८';
-document.getElementById('switch-9').innerHTML = '९';
 }
