@@ -82,4 +82,4 @@ document.getElementById('vse').innerHTML = `
 //numerals
 document.getElementById('n').innerHTML = `
 `;
-]
+}
