@@ -74,4 +74,47 @@ document.getElementById('switch-6').innerHTML = '६';
 document.getElementById('switch-7').innerHTML = '७';
 document.getElementById('switch-8').innerHTML = '८';
 document.getElementById('switch-9').innerHTML = '९';
+
+document.getElementById('vs').innerHTML = `
+<h2>Various signs</h2>
+<table>
+<tbody>
+  <tr>
+    <td id="switch">ँ</td>
+    <td>candrabindu</td>
+    <td class="pron"></td>
+  </tr>
+  <tr>
+    <td id="switch">ं</td>
+    <td>anusvara<br>(bindu)</td>
+    <td class="pron">ṃ</td>
+  </tr>
+  <tr>
+    <td id="switch">ः</td>
+    <td>visarga</td>
+    <td class="pron">ḥ</td>
+  </tr>
+  <tr>
+    <td id="switch">्</td>
+    <td>virama</td>
+    <td class="pron"></td>
+  </tr>
+  <tr>
+    <td id="switch">ॐ</td>
+    <td>om</td>
+    <td class="pron"></td>
+  </tr>
+  <tr>
+    <td id="switch">।</td>
+    <td>danda</td>
+    <td class="pron"></td>
+  </tr>
+  <tr>
+    <td id="switch">॥</td>
+    <td>double danda</td>
+    <td class="pron"></td>
+  </tr>
+</tbody>
+</table>
+`;
 }
