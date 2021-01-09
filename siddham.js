@@ -1,6 +1,6 @@
 function siddham() {
 document.getElementById('scriptname').innerHTML = 'Siddham';
-
+//consonants
 document.getElementById('switch-ka').innerHTML = '𑖎';
 document.getElementById('switch-kha').innerHTML = '𑖏';
 document.getElementById('switch-ga').innerHTML = '𑖐';
@@ -34,7 +34,9 @@ document.getElementById('switch-ba').innerHTML = '𑖤';
 document.getElementById('switch-bha').innerHTML = '𑖥';
 document.getElementById('switch-ma').innerHTML = '𑖦';
 document.getElementById('switch-va').innerHTML = '𑖪';
-
+document.getElementById('ce').innerHTML = `
+`;
+//vowels
 document.getElementById('switch-Xa').innerHTML = '𑖀';
 document.getElementById('switch-a').innerHTML = '';
 document.getElementById('switch-Xā').innerHTML = '𑖁';
@@ -63,7 +65,12 @@ document.getElementById('switch-Xo').innerHTML = '𑖌';
 document.getElementById('switch-o').innerHTML = '𑖺';
 document.getElementById('switch-Xau').innerHTML = '𑖍';
 document.getElementById('switch-au').innerHTML = '𑖻';
-
+document.getElementById('ve').innerHTML = `
+`;
+//various signs
+document.getElementById('vs').innerHTML = `
+`;
+//numerals
 document.getElementById('switch-0').innerHTML = '';
 document.getElementById('switch-1').innerHTML = '';
 document.getElementById('switch-2').innerHTML = '';
