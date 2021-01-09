@@ -10,7 +10,8 @@ th, td {border: 0.2rem solid #FFF; padding: 0.2rem}
 [id^=switch], .txta {font-size: 2em; font-family: Eczar, Noto Sans Siddham; line-height: 1.6}
 [id^=switch] {cursor: pointer}
 .white {background: #FFF;}
-button {font-size: 1.2rem;}
+.btn {font-size: 1.2rem;}
+.active {color:red; box-shadow:0px 0px 1.5px 1px black;}
 .b {position: fixed; top: 0px; right: 0px; margin:0; max-width: 30%; max-height: 4em; resize: none; text-align:right; padding:10px; background: rgba(230,230,160,0.3); overflow: auto}
 @media (min-width: 700px) {
 .txta {position: fixed; bottom: 1px; right: 1px; width: 9em; resize: none; font-size: 1.8em;}
@@ -295,13 +296,22 @@ button {font-size: 1.2rem;}
 </tbody>
 </table>
 
-<div class="b">
-  <button onclick="devanagari()">Devanagari</button>
-  <button onclick="siddham()">Siddham</button><br>
+<div class="b" id="b">
+  <button class="btn active" onclick="devanagari()">Devanagari</button>
+  <button class="btn" onclick="siddham()">Siddham</button><br>
 </div>
 <textarea class="txta" id="output"></textarea>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
+var header = document.getElementById("b");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
 $('[id^="switch"]').click(function(){
     var range = document.createRange();
     range.selectNodeContents(this);  
