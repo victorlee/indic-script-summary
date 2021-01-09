@@ -88,5 +88,5 @@ document.getElementById('link').innerHTML = `
 full list: <a href="https://www.unicode.org/charts/PDF/U11580.pdf" target="_blank">https://www.unicode.org/charts/PDF/U11580.pdf</a>
 `;
 //others
-document.getElementById('output').value = '';
+document.getElementById('output').value += '\r\n';
 }
