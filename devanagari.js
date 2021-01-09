@@ -114,7 +114,5 @@ document.getElementById('n').innerHTML = `
 </table>
 `;
 //link
-document.getElementById('link').innerHTML = `
-full list: <a href="https://www.unicode.org/charts/PDF/U0900.pdf">https://www.unicode.org/charts/PDF/U0900.pdf</a>
-`;
+document.getElementById('link').innerHTML = 'full list: <a href="https://www.unicode.org/charts/PDF/U0900.pdf">https://www.unicode.org/charts/PDF/U0900.pdf</a>';
 }
