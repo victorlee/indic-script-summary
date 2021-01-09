@@ -7,7 +7,7 @@ body {padding: 2rem 2rem; margin: auto; font-size: 1.2rem; font-family: Arial}
 table {border-collapse: collapse; background: #EEE; line-height: 1.4}
 th, td {border: 0.2rem solid #FFF; padding: 0.2rem}
 .trans {background: #F5F3BB;}
-[id^=switch], .txta {font-size: 2em; font-family: Eczar, Noto Sans Oriya, Noto Sans Siddham; line-height: 1.6}
+[id^=switch], .txta {font-size: 2em; font-family: Eczar, Noto Sans Oriya, Noto Sans Siddham, Yagpo Tibetan Uni; line-height: 1.6}
 [id^=switch] {cursor: pointer}
 .white {background: #FFF;}
 .btn {font-size: 1.2rem;}
@@ -23,6 +23,7 @@ th, td {border: 0.2rem solid #FFF; padding: 0.2rem}
 <script src="devanagari.js"></script>
 <script src="odia.js"></script>
 <script src="siddham.js"></script>
+<script src="tibetan.js"></script>
 </head>
 <body>
 <h1>Summary of Indic scripts - <span id="scriptname"></span></h1>
@@ -274,6 +275,7 @@ th, td {border: 0.2rem solid #FFF; padding: 0.2rem}
   <button class="btn active" onclick="devanagari()">Devanagari</button>
   <button class="btn" onclick="odia()">Odia</button>
   <button class="btn" onclick="siddham()">Siddham</button><br>
+  <button class="btn" onclick="tibetan()">Tibetan</button><br>
 </div>
 <textarea class="txta" id="output"></textarea>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
