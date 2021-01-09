@@ -81,7 +81,17 @@ document.getElementById('switch-doubledanda').innerHTML = '𑗃';
 document.getElementById('vse').innerHTML = `
 `;
 //numerals
-document.getElementById('n').innerHTML = `
+document.getElementById('switch-0').innerHTML = '';
+document.getElementById('switch-1').innerHTML = '';
+document.getElementById('switch-2').innerHTML = '';
+document.getElementById('switch-3').innerHTML = '';
+document.getElementById('switch-4').innerHTML = '';
+document.getElementById('switch-5').innerHTML = '';
+document.getElementById('switch-6').innerHTML = '';
+document.getElementById('switch-7').innerHTML = '';
+document.getElementById('switch-8').innerHTML = '';
+document.getElementById('switch-9').innerHTML = '';
+document.getElementById('ne').innerHTML = `
 `;
 //link
 document.getElementById('link').innerHTML = `
