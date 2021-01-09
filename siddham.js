@@ -69,17 +69,5 @@ document.getElementById('switch-Xau').innerHTML = '𑖍';
 document.getElementById('switch-au').innerHTML = '𑖻';
 document.getElementById('ve').innerHTML = `
 `;
-//various signs
-document.getElementById('switch-candrabindu').innerHTML = '𑖼';
-document.getElementById('switch-anusvara').innerHTML = '𑖽';
-document.getElementById('switch-visarga').innerHTML = '𑖾';
-document.getElementById('switch-virama').innerHTML = '𑖿';
-document.getElementById('switch-om').innerHTML = '';
-document.getElementById('switch-danda').innerHTML = '𑗂';
-document.getElementById('switch-doubledanda').innerHTML = '𑗃';
-document.getElementById('vse').innerHTML = `
-`;
-//numerals
-document.getElementById('n').innerHTML = `
-`;
+
 }
