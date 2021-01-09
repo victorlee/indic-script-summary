@@ -36,7 +36,6 @@ document.getElementById('switch-ma').innerHTML = 'ମ';
 document.getElementById('switch-va').innerHTML = 'ୱ';
 document.getElementById('ce').innerHTML = `
 `;
-}
 //numerals
 document.getElementById('n').innerHTML = `
 <h2>Numerals</h2>
