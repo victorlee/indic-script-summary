@@ -118,5 +118,5 @@ document.getElementById('link').innerHTML = `
 full list: <a href="https://www.unicode.org/charts/PDF/U0900.pdf">https://www.unicode.org/charts/PDF/U0900.pdf</a>
 `;
 //others
-document.getElementById('txta').value = '';
+document.getElementById('output').value = '';
 }
