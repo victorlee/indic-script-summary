@@ -81,38 +81,17 @@ document.getElementById('switch-doubledanda').innerHTML = '༎';
 document.getElementById('vse').innerHTML = `
 `;
 //numerals
-document.getElementById('n').innerHTML = `
-<h2>Numerals</h2>
-<table>
-<thead>
-<tr>
-    <th>0</th>
-    <th>1</th>
-    <th>2</th>
-    <th>3</th>
-    <th>4</th>
-    <th>5</th>
-    <th>6</th>
-    <th>7</th>
-    <th>8</th>
-    <th>9</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td id="switch-0">༠</td>
-    <td id="switch-1">༡</td>
-    <td id="switch-2">༢</td>
-    <td id="switch-3">༣</td>
-    <td id="switch-4">༤</td>
-    <td id="switch-5">༥</td>
-    <td id="switch-6">༦</td>
-    <td id="switch-7">༧</td>
-    <td id="switch-8">༨</td>
-    <td id="switch-9">༩</td>
-  </tr>
-</tbody>
-</table>
+document.getElementById('switch-0').innerHTML = '༠';
+document.getElementById('switch-1').innerHTML = '༡';
+document.getElementById('switch-2').innerHTML = '༢';
+document.getElementById('switch-3').innerHTML = '༣';
+document.getElementById('switch-4').innerHTML = '༤';
+document.getElementById('switch-5').innerHTML = '༥';
+document.getElementById('switch-6').innerHTML = '༦';
+document.getElementById('switch-7').innerHTML = '༧';
+document.getElementById('switch-8').innerHTML = '༨';
+document.getElementById('switch-9').innerHTML = '༩';
+document.getElementById('ne').innerHTML = `
 `;
 //link
 document.getElementById('link').innerHTML = `
