@@ -3,14 +3,14 @@
 <title>Indic script summary</title>
 <style>
 @import url(https://victorlee.github.io/fonts/stylesheet.css);
-body {padding: 1rem; margin: auto; font-size: 1.2rem; font-family: Arial}
+body {padding: 2rem 2rem; margin: auto; font-size: 1.2rem; font-family: Arial}
 table {border-collapse: collapse; background: #EEE; line-height: 1.4}
 th, td {border: 0.2rem solid #FFF; padding: 0.2rem}
 .pron {background: #F5F3BB;}
 [id^=switch] {font-size: 1.8em; font-family: Eczar, Noto Sans Siddham}
 .white {background: #FFF;}
 button {font-size: 1.2rem;}
-.b {position: fixed; top: 4px; right: 4px; resize: none;}
+.b {margin:0; max-width: 30%; max-height: 4em; position: fixed; top: 0px; right: 0px; resize: none; text-align:right; padding:10px; background: rgba(200,200,200,0.2); overflow: auto}
 </style>
 <script src="devanagari.js"></script>
 <script src="siddham.js"></script>
@@ -275,9 +275,9 @@ button {font-size: 1.2rem;}
   </tr>
 </tbody>
 </table>
-<span class="b">
-<button onclick="siddham()">Siddham</button>
-<button onclick="devanagari()">Devanagari</button>
-</span>
+<div class="b">
+  <button onclick="devanagari()">Devanagari</button>
+  <button onclick="siddham()">Siddham</button>
+</div>
 </body>
 </html>
