@@ -81,38 +81,17 @@ document.getElementById('switch-doubledanda').innerHTML = '॥';
 document.getElementById('vse').innerHTML = `
 `;
 //numerals
-document.getElementById('n').innerHTML = `
-<h2>Numerals</h2>
-<table>
-<thead>
-<tr>
-    <th>0</th>
-    <th>1</th>
-    <th>2</th>
-    <th>3</th>
-    <th>4</th>
-    <th>5</th>
-    <th>6</th>
-    <th>7</th>
-    <th>8</th>
-    <th>9</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td id="switch-0">०</td>
-    <td id="switch-1">१</td>
-    <td id="switch-2">२</td>
-    <td id="switch-3">३</td>
-    <td id="switch-4">४</td>
-    <td id="switch-5">५</td>
-    <td id="switch-6">६</td>
-    <td id="switch-7">७</td>
-    <td id="switch-8">८</td>
-    <td id="switch-9">९</td>
-  </tr>
-</tbody>
-</table>
+document.getElementById('switch-0').innerHTML = '०';
+document.getElementById('switch-1').innerHTML = '१';
+document.getElementById('switch-2').innerHTML = '२';
+document.getElementById('switch-3').innerHTML = '३';
+document.getElementById('switch-4').innerHTML = '४';
+document.getElementById('switch-5').innerHTML = '५';
+document.getElementById('switch-6').innerHTML = '६';
+document.getElementById('switch-7').innerHTML = '७';
+document.getElementById('switch-8').innerHTML = '८';
+document.getElementById('switch-9').innerHTML = '९';
+document.getElementById('ne').innerHTML = `
 `;
 //link
 document.getElementById('link').innerHTML = `
