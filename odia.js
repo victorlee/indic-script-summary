@@ -115,5 +115,5 @@ document.getElementById('n').innerHTML = `
 </table>
 `;
 //others
-document.getElementById('output').value = '';
+document.getElementById('output').value += '\r\n';
 }
