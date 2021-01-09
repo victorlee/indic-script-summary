@@ -111,40 +111,6 @@ document.getElementById('vs').innerHTML = `
   </tr>
 </tbody>
 </table>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$('[id^="switch"]').click(function(){
-    var range = document.createRange();
-    range.selectNodeContents(this);  
-    var sel = window.getSelection(); 
-    sel.removeAllRanges(); 
-    sel.addRange(range);
-    insertAtCaret('output', sel);return false;
-});
-function insertAtCaret(areaId, text) {
-  var txtarea = document.getElementById(areaId);
-  if (!txtarea) {
-    return;
-  }
-  var scrollPos = txtarea.scrollTop;
-  var strPos = 0;
-  var br = ((txtarea.selectionStart || txtarea.selectionStart == '0') ?
-    "ff" : (document.selection ? "ie" : false));
-  if (br == "ie") {
-    txtarea.focus();
-    var range = document.selection.createRange();
-    range.moveStart('character', -txtarea.value.length);
-    strPos = range.text.length;
-  } else if (br == "ff") {
-    strPos = txtarea.selectionStart;
-  }
-  var front = (txtarea.value).substring(0, strPos);
-  var back = (txtarea.value).substring(strPos, txtarea.value.length);
-  txtarea.value = front + text + back;
-  strPos = strPos + text.length;
-  txtarea.scrollTop = scrollPos;
-}
-</script>
 `;
 //numerals
 document.getElementById('switch-0').innerHTML = '०';
