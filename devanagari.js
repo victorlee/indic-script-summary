@@ -73,6 +73,7 @@ document.getElementById('ve').innerHTML = `
 document.getElementById('switch-candrabindu').innerHTML = 'ँ';
 document.getElementById('switch-anusvara').innerHTML = 'ं';
 document.getElementById('switch-visarga').innerHTML = 'ः';
+document.getElementById('visarga-name').innerHTML = 'visarga';
 document.getElementById('switch-virama').innerHTML = '्';
 document.getElementById('switch-om').innerHTML = 'ॐ';
 document.getElementById('switch-danda').innerHTML = '।';
