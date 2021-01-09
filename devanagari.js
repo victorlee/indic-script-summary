@@ -39,8 +39,10 @@ document.getElementById('ce').innerHTML = `
 //vowels
 document.getElementById('switch-Xa').innerHTML = 'अ';
 document.getElementById('switch-a').innerHTML = '';
+document.getElementById('switch-a-trans').innerHTML = 'a';
 document.getElementById('switch-Xā').innerHTML = 'आ';
 document.getElementById('switch-ā').innerHTML = 'ा';
+document.getElementById('switch-ā-trans').innerHTML = 'ā';
 document.getElementById('switch-Xi').innerHTML = 'इ';
 document.getElementById('switch-i').innerHTML = 'ि';
 document.getElementById('switch-Xī').innerHTML = 'ई';
