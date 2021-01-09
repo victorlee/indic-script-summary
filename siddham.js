@@ -70,17 +70,16 @@ document.getElementById('switch-au').innerHTML = '𑖻';
 document.getElementById('ve').innerHTML = `
 `;
 //various signs
-document.getElementById('vs').innerHTML = `
+document.getElementById('switch-candrabindu').innerHTML = '𑖼';
+document.getElementById('switch-anusvara').innerHTML = '𑖽';
+document.getElementById('switch-visarga').innerHTML = '𑖾';
+document.getElementById('switch-virama').innerHTML = '𑖿';
+document.getElementById('switch-om').innerHTML = '';
+document.getElementById('switch-danda').innerHTML = '𑗂';
+document.getElementById('switch-doubledanda').innerHTML = '𑗃';
+document.getElementById('vse').innerHTML = `
 `;
 //numerals
-document.getElementById('switch-0').innerHTML = '';
-document.getElementById('switch-1').innerHTML = '';
-document.getElementById('switch-2').innerHTML = '';
-document.getElementById('switch-3').innerHTML = '';
-document.getElementById('switch-4').innerHTML = '';
-document.getElementById('switch-5').innerHTML = '';
-document.getElementById('switch-6').innerHTML = '';
-document.getElementById('switch-7').innerHTML = '';
-document.getElementById('switch-8').innerHTML = '';
-document.getElementById('switch-9').innerHTML = '';
-}
+document.getElementById('n').innerHTML = `
+`;
+]
