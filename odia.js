@@ -36,3 +36,4 @@ document.getElementById('switch-ma').innerHTML = 'ମ';
 document.getElementById('switch-va').innerHTML = 'ୱ';
 document.getElementById('ce').innerHTML = `
 `;
+}
