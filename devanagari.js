@@ -75,37 +75,37 @@ document.getElementById('vs').innerHTML = `
   <tr>
     <td id="switch-vs01">ँ</td>
     <td>candrabindu</td>
-    <td class="pron"></td>
+    <td class="trans"></td>
   </tr>
   <tr>
     <td id="switch-vs02">ं</td>
     <td>anusvara<br>(bindu)</td>
-    <td class="pron">ṃ</td>
+    <td class="trans">ṃ</td>
   </tr>
   <tr>
     <td id="switch-vs03">ः</td>
     <td>visarga</td>
-    <td class="pron">ḥ</td>
+    <td class="trans">ḥ</td>
   </tr>
   <tr>
     <td id="switch-vs04">्</td>
     <td>virama</td>
-    <td class="pron"></td>
+    <td class="trans"></td>
   </tr>
   <tr>
     <td id="switch-vs05">ॐ</td>
     <td>om</td>
-    <td class="pron"></td>
+    <td class="trans"></td>
   </tr>
   <tr>
     <td id="switch-vs06">।</td>
     <td>danda</td>
-    <td class="pron"></td>
+    <td class="trans"></td>
   </tr>
   <tr>
     <td id="switch-vs07">॥</td>
     <td>double danda</td>
-    <td class="pron"></td>
+    <td class="trans"></td>
   </tr>
 </tbody>
 </table>
