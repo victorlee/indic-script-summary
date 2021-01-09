@@ -1,4 +1,6 @@
 function devanagari() {
+document.getElementById('scriptname').innerHTML = 'Devanagari';
+  
 document.getElementById('switch-ka').innerHTML = 'क';
 document.getElementById('switch-kha').innerHTML = 'ख';
 document.getElementById('switch-ga').innerHTML = 'ग';
