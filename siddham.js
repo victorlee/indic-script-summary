@@ -39,10 +39,10 @@ document.getElementById('ce').innerHTML = `
 //vowels
 document.getElementById('switch-Xa').innerHTML = '𑖀';
 document.getElementById('switch-a').innerHTML = '';
-document.getElementById('switch-a-trans').innerHTML = 'a';
+document.getElementById('a-trans').innerHTML = 'a';
 document.getElementById('switch-Xā').innerHTML = '𑖁';
 document.getElementById('switch-ā').innerHTML = '𑖯';
-document.getElementById('switch-ā-trans').innerHTML = 'ā';
+document.getElementById('ā-trans').innerHTML = 'ā';
 document.getElementById('switch-Xi').innerHTML = '𑖂';
 document.getElementById('switch-i').innerHTML = '𑖰';
 document.getElementById('switch-Xī').innerHTML = '𑖃';
