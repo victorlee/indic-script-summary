@@ -93,5 +93,9 @@ document.getElementById('switch-8').innerHTML = '୮';
 document.getElementById('switch-9').innerHTML = '୯';
 document.getElementById('ne').innerHTML = `
 `;
+//link
+document.getElementById('link').innerHTML = `
+full list: <a href="https://www.unicode.org/charts/PDF/U0B00.pdf" target="_blank">https://www.unicode.org/charts/PDF/U0B00.pdf</a>
+`;
 //others
 }
