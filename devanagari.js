@@ -82,7 +82,7 @@ document.getElementById('switch-om').innerHTML = 'ॐ';
 document.getElementById('switch-danda').innerHTML = '।';
 document.getElementById('danda-name').innerHTML = 'danda';
 document.getElementById('switch-doubledanda').innerHTML = '॥';
-document.getElementById('switch-doubledanda').innerHTML = 'double danda';
+document.getElementById('doubledanda-name').innerHTML = 'double danda';
 document.getElementById('vse').innerHTML = `
 `;
 //numerals
