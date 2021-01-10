@@ -1,5 +1,5 @@
 function tibetan() {
-document.getElementById('scriptname').innerHTML = 'Tietan';
+document.getElementById('scriptname').innerHTML = 'Tibetan';
 //consonants
 document.getElementById('switch-ka').innerHTML = 'ཀ';
 document.getElementById('switch-kha').innerHTML = 'ཁ';
