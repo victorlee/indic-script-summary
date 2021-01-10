@@ -70,14 +70,19 @@ document.getElementById('switch-au').innerHTML = 'ौ';
 document.getElementById('ve').innerHTML = `
 `;
 //various signs
-document.getElementById('switch-candrabindu').innerHTML = 'ँ';
+document.getElementById('switch-virama').innerHTML = '्';
+document.getElementById('virama-name').innerHTML = 'virama';
 document.getElementById('switch-anusvara').innerHTML = 'ं';
+document.getElementById('anusvara-name').innerHTML = 'anusvara';
 document.getElementById('switch-visarga').innerHTML = 'ः';
 document.getElementById('visarga-name').innerHTML = 'visarga';
-document.getElementById('switch-virama').innerHTML = '्';
+document.getElementById('switch-candrabindu').innerHTML = 'ँ';
+document.getElementById('candrabindu-name').innerHTML = 'candrabindu';
 document.getElementById('switch-om').innerHTML = 'ॐ';
 document.getElementById('switch-danda').innerHTML = '।';
+document.getElementById('danda-name').innerHTML = 'danda';
 document.getElementById('switch-doubledanda').innerHTML = '॥';
+document.getElementById('switch-doubledanda').innerHTML = 'double danda';
 document.getElementById('vse').innerHTML = `
 `;
 //numerals
