@@ -100,7 +100,8 @@ document.getElementById('ne').innerHTML = `
 `;
 //link
 document.getElementById('link').innerHTML = `
-full list: <a href="https://www.unicode.org/charts/PDF/U0900.pdf" target="_blank">https://www.unicode.org/charts/PDF/U0900.pdf</a>
+full list: <a href="https://www.unicode.org/charts/PDF/U0900.pdf" target="_blank">https://www.unicode.org/charts/PDF/U0900.pdf</a><br>
+<a href="https://commons.wikimedia.org/wiki/Category:Devanagari_stroke_order" target="_blank">stroke orders</a>
 `;
 //others
 }
